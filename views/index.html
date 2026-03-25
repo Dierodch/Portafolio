@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diego Rodríguez Chumacero — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">DRC</span>
+      <ul class="nav-links">
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <span class="badge fade-in">&#x2022; Disponible para proyectos freelance</span>
+      <h1 class="fade-in">Diego Rodríguez<br /><span class="accent">Chumacero</span></h1>
+      <p class="hero-title fade-in">Full Stack Developer</p>
+      <p class="hero-sub fade-in">Construyo aplicaciones web robustas y escalables.<br />Del backend al frontend, con código limpio y arquitectura sólida.</p>
+      <div class="hero-btns fade-in">
+        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+        <a href="#contacto" class="btn btn-secondary">Contáctame</a>
+      </div>
+    </div>
+    <div class="hero-bg-glow"></div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="habilidades">
+    <div class="container">
+      <h2 class="section-title fade-in">Habilidades</h2>
+      <p class="section-sub fade-in">Stack técnico con el que construyo soluciones reales</p>
+      <div class="skills-grid">
+        <div class="skill-card fade-in">
+          <div class="skill-icon">JS</div>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">NO</div>
+          <span>Node.js</span>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">EX</div>
+          <span>Express.js</span>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">MY</div>
+          <span>MySQL</span>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">HT</div>
+          <span>HTML / CSS</span>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">BS</div>
+          <span>Bootstrap</span>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">AU</div>
+          <span>Auth (bcrypt / sesiones)</span>
+        </div>
+        <div class="skill-card fade-in">
+          <div class="skill-icon">MV</div>
+          <span>Arquitectura MVC</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos">
+    <div class="container">
+      <h2 class="section-title fade-in">Proyectos</h2>
+      <p class="section-sub fade-in">Aplicaciones construidas para resolver problemas reales</p>
+      <div class="projects-grid">
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <div class="project-number">01</div>
+            <div class="project-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Handlebars</span>
+              <span class="tag">bcrypt</span>
+            </div>
+          </div>
+          <h3>Sistema de gestión de evaluaciones</h3>
+          <p>Sistema institucional desarrollado para el Gobierno de la Ciudad de México. Incluye autenticación segura con bcrypt, control de roles y permisos, gestión completa de datos de evaluaciones y reportes.</p>
+          <div class="project-footer">
+            <span class="project-scope">Gobierno CDMX</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <div class="project-number">02</div>
+            <div class="project-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+          <h3>Sistema de agendamiento de citas</h3>
+          <p>Plataforma web para la gestión de citas y agenda para negocios. Permite a clientes reservar citas en línea y a administradores gestionar disponibilidad, cancelaciones y notificaciones.</p>
+          <div class="project-footer">
+            <span class="project-scope">Negocios &amp; Servicios</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <div class="project-number">03</div>
+            <div class="project-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">JWT</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+          <h3>API REST con autenticación JWT</h3>
+          <p>API backend con CRUD completo y endpoints protegidos mediante JSON Web Tokens. Arquitectura modular MVC, validación de datos, manejo de errores y documentación de endpoints.</p>
+          <div class="project-footer">
+            <span class="project-scope">Backend / API</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi">
+    <div class="container about-grid">
+      <div class="about-text fade-in">
+        <h2 class="section-title">Sobre mí</h2>
+        <p>Soy un desarrollador Full Stack con experiencia construyendo aplicaciones web para entornos exigentes. He trabajado en el desarrollo de sistemas institucionales para el <strong>Gobierno de la Ciudad de México</strong>, donde aprendí a priorizar la seguridad, la escalabilidad y la calidad del código.</p>
+        <p>Mi stack principal gira en torno a <strong>Node.js + Express</strong> en el backend con <strong>MySQL</strong> como base de datos, combinando patrones de arquitectura MVC para mantener el código organizado y mantenible. En el frontend trabajo con HTML, CSS y JavaScript vanilla o Bootstrap según el proyecto.</p>
+        <p>Me enfoco en construir soluciones que resuelvan problemas reales: sistemas de autenticación seguros, APIs robustas y plataformas que escalen. Estoy disponible para proyectos freelance y colaboraciones remotas.</p>
+      </div>
+      <div class="about-stats fade-in">
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Proyectos completados</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">Gov</span>
+          <span class="stat-label">Sector público CDMX</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="container">
+      <h2 class="section-title fade-in">Hablemos</h2>
+      <p class="section-sub fade-in">¿Tienes un proyecto en mente? Estoy disponible para freelance y colaboraciones remotas.</p>
+      <div class="contact-grid fade-in">
+        <a href="mailto:diego.rodriguez@example.com" class="contact-card">
+          <div class="contact-icon">&#9993;</div>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">diego.rodriguez@example.com</span>
+        </a>
+        <a href="https://www.workana.com" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">W</div>
+          <span class="contact-label">Workana</span>
+          <span class="contact-value">Ver perfil en Workana</span>
+        </a>
+        <a href="https://github.com" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">GH</div>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">Ver repositorios</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Diseñado y desarrollado por <span class="accent">Diego Rodríguez Chumacero</span> &mdash; 2025</p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
